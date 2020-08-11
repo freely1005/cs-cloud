@@ -1,6 +1,7 @@
 package com.cs.cloud.demo.entity;
 
 import lombok.Data;
+
 /**
  * @Author: freely
  * @Description:

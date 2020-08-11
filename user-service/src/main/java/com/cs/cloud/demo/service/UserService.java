@@ -13,7 +13,7 @@ import java.util.List;
 
 public interface UserService {
 
-    Boolean create(User user);
+    void create(User user);
 
     User getUser(Long id);
 
@@ -21,9 +21,9 @@ public interface UserService {
 
     User getByUsername(String username);
 
-    Boolean update(User user);
+    void update(User user);
 
-    Boolean delete(Long id);
+    void delete(Long id);
 
 
 }
